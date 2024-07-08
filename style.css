@@ -20,7 +20,7 @@
 }
 
 .logo{
-    background-image: url(image.png);
+    background-image: url(Images/image.png);
     background-size: 320%;
     height: 50px;
     width: 100%;
@@ -111,7 +111,6 @@
 }
 
 /* box 4 */
-
 .last-layout{
     display: flex;
     justify-content: space-between;
@@ -137,7 +136,6 @@
 }
 
 /* box 5 */
-
 span{
     font-size: 0.7rem;
 }
@@ -147,7 +145,6 @@ span{
 }
 
 /* box 7 */
-
 .nav-cart i{
     font-size: 30px;
 
@@ -159,7 +156,6 @@ span{
 }
 
 /* panal */
-
 .panel{
     height: 40px;
     background-color: #222f3d;
@@ -185,9 +181,8 @@ span{
 }
 
 /* hero section */
-
 .hero-section{
-    background-image: url(image1.jpg);
+    background-image: url(Images/image1.jpg);
     height: 400px;
     background-size: 100%;
     display: flex;
@@ -212,7 +207,6 @@ span{
 }
 
 /* shop section */
-
 .shop-section{
     height: 900px;
     background-color: #e2e7e6;
@@ -305,7 +299,6 @@ background-position-x: -40px;
 }
 
 /* footer */
-
 .footer-div{
     background-color: #232F3E;
     height: 1000px;
@@ -374,7 +367,7 @@ background-position-x: -40px;
 .last-logo{
     height: 26px;
     width: 76px;
-    background-image: url(image.png);
+    background-image: url(Images/image.png);
     background-size: 360%;
     background-position-x: -7px;
     background-position-y: -38px;
@@ -600,7 +593,7 @@ background-position-x: -40px;
     width: 29px;
     height: 14px;
     margin-left: 5px;
-    background-image: url(image.png);
+    background-image: url(Images/image.png);
     background-size: 1200%;
     background-position-x: -135px;
     background-position-y: 69.5px;
