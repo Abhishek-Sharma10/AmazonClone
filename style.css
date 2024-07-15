@@ -76,7 +76,8 @@
     width: 620px;
     height: 40px;
     border-radius: 5px;
-    flex-grow: 0.9;
+    flex-grow: 0.95;
+    margin-right: 25px;
 }
 
 .nav-search:hover{
@@ -159,11 +160,11 @@ span{
 /* panal */
 .panel{
     height: 40px;
+    padding: 0px 15px;
     background-color: #222f3d;
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .panel-ops p{
