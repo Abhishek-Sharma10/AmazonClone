@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-grow: 0.9;
 }
 
 .nav-logo{
@@ -77,6 +76,7 @@
     width: 620px;
     height: 40px;
     border-radius: 5px;
+    flex-grow: 0.9;
 }
 
 .nav-search:hover{
