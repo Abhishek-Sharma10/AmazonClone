@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Arial;
     border: border-box;
+    scrollbar-width: none
 }
 
 .navbar{
