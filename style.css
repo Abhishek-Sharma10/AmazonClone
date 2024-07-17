@@ -182,14 +182,32 @@ span{
     font-weight: 700;
 }
 
+/* Main body */
+.main-body{
+    @media(min-width: 1500px){
+        width: 100%;
+        background-color: rgb(226, 231, 230);
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.main-body-ele{
+    @media(min-width: 1500px){
+        width: 1500px;
+    }
+}
+
 /* hero section */
 .hero-section{
-    background-image: url(Images/image1.jpg);
     height: 400px;
     background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    @media(min-width: 1500px){
+        width: 1500px;
+    }
 }
 
 .hero-msg{
