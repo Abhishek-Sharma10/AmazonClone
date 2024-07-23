@@ -185,6 +185,7 @@ span{
 
 /* Main body */
 .main-body{
+    background-color: rgb(226, 231, 230);
     @media(min-width: 1500px){
         width: 100%;
         background-color: rgb(226, 231, 230);
@@ -201,11 +202,14 @@ span{
 
 /* hero section */
 .hero-section{
-    height: 400px;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+    height: 600px;
     background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    background-repeat: no-repeat;
+    background-color: #d0e9f9;
     @media(min-width: 1500px){
         width: 1500px;
     }
@@ -220,7 +224,7 @@ span{
     justify-content: center;
     font-size: 14px;
     width: 97%;
-    margin-bottom: 115px;
+    margin-bottom: 315px;
 }
 
 .hero-msg a{
@@ -230,12 +234,12 @@ span{
 /* shop section */
 .shop-section{
     height: 900px;
-    background-color: #e2e7e6;
+    /* background-color: #e2e7e6; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-    bottom: 95px;
+    bottom: 295px;
 }
 
 .box{
